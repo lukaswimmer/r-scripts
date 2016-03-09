@@ -12,3 +12,5 @@ scene1 <- stack(c("LM12400771973054FAK03_B4.TIF",    # Band 1
                   "LM12400771973054FAK03_B7.TIF"))   # Band 4
 
  writeRaster(scene1, filename="2-73_240-77.tif", overwrite=TRUE)
+ 
+ #Test change
